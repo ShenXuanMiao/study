@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.xuan.servlet.MyServlet</OriginalElement>
+  <nodes>
+    <node x="0.0" y="319.0">javax.servlet.http.HttpServletRequest</node>
+    <node x="12.5" y="238.0">javax.servlet.ServletRequest</node>
+    <node x="204.0" y="238.0">javax.servlet.SingleThreadModel</node>
+    <node x="9.5" y="162.0">javax.servlet.http.HttpServlet</node>
+    <node x="188.5" y="0.0">javax.servlet.ServletResponse</node>
+    <node x="0.0" y="81.0">javax.servlet.GenericServlet</node>
+    <node x="22.0" y="0.0">javax.servlet.Servlet</node>
+    <node x="176.0" y="81.0">javax.servlet.http.HttpServletResponse</node>
+    <node x="0.0" y="395.0">javax.servlet.ServletContext</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javax.servlet.http.HttpServletRequest" target="javax.servlet.ServletRequest">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="javax.servlet.http.HttpServlet" target="javax.servlet.GenericServlet">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="javax.servlet.GenericServlet" target="javax.servlet.Servlet">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="javax.servlet.http.HttpServletResponse" target="javax.servlet.ServletResponse">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="52.5" y="324.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
