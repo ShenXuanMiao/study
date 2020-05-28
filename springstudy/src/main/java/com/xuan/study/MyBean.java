@@ -1,8 +1,11 @@
 package com.xuan.study;
 
+import org.springframework.stereotype.Component;
+
 /**
  * @author xuan
  */
+@Component
 public class MyBean {
 
     private String name;
